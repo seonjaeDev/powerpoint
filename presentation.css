@@ -1,0 +1,30 @@
+* {
+	outline: 1px dashed red;
+}
+body {
+	margin: 0;
+	font: 1em arial, sans-serif;
+}
+
+header, section {
+	height: 90vh;
+	padding: 10px 16px;
+}
+
+header {
+	background: url(header.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+header h1, h4 {
+	margin: 0;
+}
+h1 {
+	border-radius: 12px;
+	padding: 12px;
+	background: rgba(255, 255, 255, 0.7);
+	font-size: 5em;
+	text-align: center;
+}
