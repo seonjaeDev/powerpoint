@@ -1,5 +1,5 @@
 * {
-	outline: 1px dashed red;
+	/* outline: 1px dashed red; */
 }
 body {
 	margin: 0;
@@ -7,12 +7,18 @@ body {
 }
 
 header, section {
-	height: 90vh;
-	padding: 10px 16px;
+	height: 630px;
+}
+header, section, footer {
+	padding: 38px 45px;
 }
 
 header {
-	background: url(header.jpg);
+	background: url(human-figure-drawing-animation/header00.jpg);
+	background-repeat: no-repeat;
+	/* background-position: center; */
+	background-attachment: fixed;
+	background-size: 100% auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -27,4 +33,58 @@ h1 {
 	background: rgba(255, 255, 255, 0.7);
 	font-size: 5em;
 	text-align: center;
+	text-shadow: 3px 3px 18px black;
+	color: white;
+}
+
+nav {
+	height: 12px;
+	/* padding: 0px 16px; */
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+nav ul {
+	margin: 0;
+	padding: 0px 20px;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	box-shadow: 8px 8px 20px grey;
+	list-style-type: none;
+	overflow: hidden;
+}
+nav li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+nav li:first-child, li:last-child {
+	border-right: none;
+}
+nav li a {
+	display: block;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	color: #666;
+	/* background-color: #dddddd; */
+}
+nav li a:hover:not(.active) {
+	background-color: #ddd;
+	color: white;
+}
+
+footer {
+	background-color: #444444;
+	color: white;
+}
+
+.active {
+	background-color: #11998e;
+	color: white;
+}
+.f-l {
+	float: left;
+}
+.f-r {
+	float: right;
 }
