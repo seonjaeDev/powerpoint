@@ -14,7 +14,7 @@ section {
 }
 header, section, footer {
 	padding-top: 50px;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 }
 header, nav ul, section, footer {
 	padding-left: 75px;
@@ -114,4 +114,13 @@ li {
 }
 .f-r {
 	float: right;
+}
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.flex-row ol {
+	width: 40%;
 }
