@@ -3,11 +3,14 @@
 }
 body {
 	margin: 0;
-	font: 1em arial, sans-serif;
+	font: 1.1em arial, sans-serif;
 }
 
-header, section {
-	height: 600px;
+header {
+	height: 585px;
+}
+section {
+	min-height: 585px;
 }
 header, section, footer {
 	padding: 38px 45px;
@@ -76,6 +79,14 @@ nav li a:hover:not(.active) {
 footer {
 	background-color: #444444;
 	color: white;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 2em;
+}
+li {
+	margin-bottom: 5px;
 }
 
 .active {
