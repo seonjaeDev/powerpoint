@@ -85,6 +85,10 @@ dt {
 	font-weight: bold;
 	font-size: 2em;
 }
+img {
+	max-width: 100%;
+	height: auto;
+}
 li {
 	margin-bottom: 5px;
 }
