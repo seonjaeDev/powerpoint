@@ -120,7 +120,14 @@ li {
 	flex-direction: row;
 	justify-content: space-between;
 }
+.tips {
+	border: 3px solid #11998e;
+	padding: 8px;
+}
 
-.flex-row ol {
+.flex-row ol, .flex-row p {
 	width: 40%;
+}
+.tips dt {
+	font-size: 1.2em;
 }
