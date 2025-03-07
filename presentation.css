@@ -90,7 +90,7 @@ dt {
 	font-size: 2em;
 }
 img {
-	max-width: 100%;
+	width: 90%;
 	height: auto;
 }
 li {
@@ -125,8 +125,12 @@ li {
 	padding: 8px;
 }
 
+.flex-row img {
+	width: 50%;
+	height: auto;
+}
 .flex-row ol, .flex-row p {
-	width: 40%;
+	min-width: 40%;
 }
 .tips dt {
 	font-size: 1.2em;
