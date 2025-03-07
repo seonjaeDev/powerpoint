@@ -14,7 +14,7 @@ section {
 }
 header, section, footer {
 	padding-top: 50px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 header, nav ul, section, footer {
 	padding-left: 75px;
@@ -116,6 +116,7 @@ li {
 	float: right;
 }
 .flex-row {
+	/* width: 90%; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -123,6 +124,11 @@ li {
 .tips {
 	border: 3px solid #11998e;
 	padding: 8px;
+}
+.width-test {
+	width: 360px;
+	height: 2px;
+	background: red;
 }
 
 .flex-row img {
@@ -134,4 +140,32 @@ li {
 }
 .tips dt {
 	font-size: 1.2em;
+}
+
+@media screen and (max-width: 360px) {
+	body {
+		font: 1em Arial, sans-serif;
+	}
+	header, nav ul, section, footer {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	header, section, footer {
+		padding-top: 75px;
+	}
+	
+	.bookmark {
+		width: 80%;
+	}
+	.flex-row {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.flex-row img {
+		width: 90%;
+	}
 }
