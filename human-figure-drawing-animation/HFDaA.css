@@ -1,5 +1,7 @@
-header {
+/* header {
 	background: url(header00.jpg);
+	background-repeat: repeat-y;
 	background-position: center;
 	background-attachment: fixed;
-}
+	background-size: cover
+} */
