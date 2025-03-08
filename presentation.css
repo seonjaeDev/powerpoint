@@ -22,11 +22,11 @@ header, nav ul, section, footer {
 }
 
 header {
-	background: url(human-figure-drawing-animation/header00.jpg);
+	/* background: url();
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: 100% auto;
+	background-size: cover; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
